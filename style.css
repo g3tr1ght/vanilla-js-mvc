@@ -1,6 +1,10 @@
 @import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower%7COpen+Sans");
 
+:root {
+  --main-bg-color: #FFBA68;
+}
+
 body {
   color: #333;
   background-color: #eee;
@@ -8,6 +12,7 @@ body {
 }
 
 input, label {
+  background-color: var(--main-bg-color);
   display: block;
   width: 100%;
 }
